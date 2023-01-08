@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    background-color: black;
+}
+i {
+    color: wheat;
+    font-size: 500px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+list-style: none;
+margin: 20px 0;
+}
+
+nav ul li a {
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-container {
+    background-color: rgb(230, 222, 222);
+    width: 95%;
+    border-radius: 50px;
+        
+}
+.back-container h4 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.texts p:nth-child(2) {
+    font-size: 35px;
+}
+
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px ;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px 50px;
+
+}
+
+.info p {
+    width: 350px;
+    font-size: 20px;
+    color: rgb(230, 222, 222);
+}
+
+.info img {
+    width: 20%;
+}
+
+.info button {
+    outline: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    margin-top: 80px;
+}
+.info button:hover {
+    background-color: rgb(211, 145, 23);
+    transition: 0.3s ease-in-out;
+}
+
+
